@@ -1,4 +1,7 @@
 import React from 'react'
+import ProjectsButton from './buttons/ProjectsButton'
+import AboutButton from './buttons/AboutButton'
+import HomeButton from './buttons/HomeButton'
 import './Header.styles.css'
 
 function Header () {
@@ -7,9 +10,9 @@ function Header () {
         <div className="header">
           <img src='ErinLouise(1).png' className="App-logo" alt="Erin Louise Logo" />
           <div className='nav'>
-            <button>ABOUT</button>
-            <button>PROJECTS</button>
-            <button>HOME</button>
+            <AboutButton />
+            <ProjectsButton />
+            <HomeButton />
           </div>
         </div>
       </>
