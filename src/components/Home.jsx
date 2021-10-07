@@ -7,7 +7,9 @@ function Home () {
     return (
       <>
         <div>
-            <WelcomeMessage />
+            <div className='home'>
+              <WelcomeMessage />
+            </div>
         </div>
       </>
     )
