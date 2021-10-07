@@ -4,6 +4,7 @@
     position: absolute;
     top: -200px;
     left: -200px;
+    z-index: 100;
   }
   
   @media (prefers-reduced-motion: no-preference) {
@@ -37,6 +38,7 @@
     position: absolute;
     top: 80px;
     right:80px;
+    z-index: 100;
   }
 
   
