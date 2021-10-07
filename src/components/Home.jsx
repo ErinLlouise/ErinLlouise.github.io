@@ -1,17 +1,13 @@
 import React from 'react'
 import './Home.styles.css'
-import HelloData from '../data/Welcome.json'
+import WelcomeMessage from './WelcomeMessage'
 
 function Home () {
 
-    function nextMessage () {
-        console.log("loaded")
-        
-    }
     return (
       <>
         <div>
-            <h1 onLoad={() => nextMessage()}>{HelloData[0].hello}</h1>
+            <WelcomeMessage />
         </div>
       </>
     )
