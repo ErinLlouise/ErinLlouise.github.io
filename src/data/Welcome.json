@@ -1,0 +1,96 @@
+[{
+    "id": "1",
+    "language": "English",
+    "hello": "Welcome"
+  },
+  {
+      "id": "2",
+      "language": "Maori",
+      "hello": "Kia ora"
+  },
+  {
+    "id": "3",
+    "language": "Chinese (Simplified)",
+    "hello": "您好"
+  },
+  {
+    "id": "4",
+    "language": "French",
+    "hello": "Bonjour"
+  },
+  {
+    "id": "5",
+    "language": "German",
+    "hello": "Hallo"
+  },
+  {
+    "id": "6",
+    "language": "Greek",
+    "hello": "Γεια σας"
+  },
+  {
+    "id": "7",
+    "language": "Hawaiian",
+    "hello": "Alohaʻoe"
+  },
+  {
+    "id": "8",
+    "language": "Hindi",
+    "hello": "नमस्ते"
+  },
+  {
+    "id": "9",
+    "language": "Indonesian",
+    "hello": "Halo"
+  },
+  {
+    "id": "10",
+    "language": "Irish",
+    "hello": "Dia duit"
+  },
+  {
+    "id": "11",
+    "language": "Italian",
+    "hello": "Ciao"
+  },
+  {
+    "id": "12",
+    "language": "Japanese",
+    "hello": "こんにちは"
+  },
+  {
+    "id": "13",
+    "language": "Latin",
+    "hello": "salve"
+  },
+  {
+    "id": "14",
+    "language": "Polish",
+    "hello": "Cześć"
+  },
+  {
+    "id": "15",
+    "language": "Portuguese",
+    "hello": "Olá"
+  },
+  {
+    "id": "16",
+    "language": "Russian",
+    "hello": "привет"
+  },
+  {
+    "id": "17",
+    "language": "Samoan",
+    "hello": "Talofa"
+  },
+  {
+    "id": "18",
+    "language": "Spanish",
+    "hello": "Hola"
+  },
+  {
+    "id": "19",
+    "language": "Vietnamese",
+    "hello": "Xin chào"
+  }
+]
