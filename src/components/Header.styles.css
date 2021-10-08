@@ -6,6 +6,40 @@
   left: -200px;
   z-index: 100;
 }
+/* logo position on mobile in center top */
+@media screen and (max-width: 480px) {
+  .App-logo {
+    position: absolute;
+    left: 36%;
+    top: 3%;
+    height: 8rem;
+    z-index: 100;
+  }
+}
+
+/* logo position on ipad */
+@media screen and (max-width: 768px) {
+  .App-logo {
+    height: 60vmin;
+    pointer-events: none;
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    z-index: 100;
+  }
+}
+
+/* logo position on laptop */
+@media screen and (max-width: 1024px) {
+  .App-logo {
+    height: 60vmin;
+    pointer-events: none;
+    position: absolute;
+    top: -180px;
+    left: -180px;
+    z-index: 100;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -39,162 +73,39 @@
   right:80px;
   z-index: 100;
 }
-  
 
-
-  /* responsive */
-
-  
-  
-  /* mobiles */
-  @media screen and (max-width: 480px) {
-    .App-logo {
-      height: 20vmin;
-      pointer-events: none;
-      position: absolute;
-      top: 500px;
-      left: 1000px;
-      z-index: 100;
-    }
-    
-    @media (prefers-reduced-motion: no-preference) {
-      .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-      }
-    }
-    
-    .header {
-      background-color: #ffbdb3;
-      height: 20rem;
-    }
-    
-    @keyframes App-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  
-    @font-face {
-      font-family: roxboroughCfLightimport;
-      src:("roxboroughCfLight.ttf");
+/* nav on mobile in center */
+@media screen and (max-width: 480px) {
+  .nav {
+    display: flex;
+    position: absolute;
+    top: 18%;
+    right: 6%;
+    z-index: 100;
   }
-  
-    .nav {
-      display: flex;
-      position: absolute;
-      top: 80px;
-      right:80px;
-      z-index: 100;
-    }
-  
+}
+
+/* nav on ipad */
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    z-index: 100;
   }
+}
 
-
-
-
-
-
-  /* Ipads, tablets */
-  @media screen and (max-width: 768px) {
-    .header {
-      background-color: black;
-    }
+/* nav on laptop */
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right:80px;
+    z-index: 100;
   }
-
-
-  /* small screens, laptops */
-  @media screen and (max-width: 1024px) {
-    .App-logo {
-      height: 60vmin;
-      pointer-events: none;
-      position: absolute;
-      top: -200px;
-      left: -200px;
-      z-index: 100;
-    }
-    
-    @media (prefers-reduced-motion: no-preference) {
-      .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-      }
-    }
-    
-    .header {
-      background-color: #ffbdb3;
-      height: 20rem;
-    }
-    
-    @keyframes App-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
+}
   
-    @font-face {
-      font-family: roxboroughCfLightimport;
-      src:("roxboroughCfLight.ttf");
-  }
-  
-    .nav {
-      display: flex;
-      position: absolute;
-      top: 80px;
-      right:80px;
-      z-index: 100;
-    }
-  
-  }
-
-  /* done */
-  /* extra large screens, desktops */
-  @media screen and (max-width: 1200px) {
-    .App-logo {
-      height: 60vmin;
-      pointer-events: none;
-      position: absolute;
-      top: -200px;
-      left: -200px;
-      z-index: 100;
-    }
-    
-    @media (prefers-reduced-motion: no-preference) {
-      .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-      }
-    }
-    
-    .header {
-      background-color: #ffbdb3;
-      height: 20rem;
-    }
-    
-    @keyframes App-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  
-    @font-face {
-      font-family: roxboroughCfLightimport;
-      src:("roxboroughCfLight.ttf");
-  }
-  
-    .nav {
-      display: flex;
-      position: absolute;
-      top: 80px;
-      right:80px;
-      z-index: 100;
-    }
-  }
 
   
