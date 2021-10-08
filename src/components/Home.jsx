@@ -30,6 +30,9 @@ function Home () {
           </p>
           </section>
         </div>
+        <div className='arrowpos'>
+          <img className='arrow' src='warrow.png' alt='down arrow' />
+        </div>
     </div>
       </>
     )
