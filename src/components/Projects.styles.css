@@ -1,4 +1,4 @@
-.projects {
+.about {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -6,3 +6,478 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
 }
+
+@font-face {
+    font-family: roxboroughCfLightimport;
+    src:("roxboroughCfLight.ttf");
+  }
+  header {
+    height: 200vh;
+  }
+  .container {
+    /* hide fixed overflow contents */
+    clip: rect(0, auto, auto, 0);
+  
+    /* does not work if overflow = visible */
+    overflow: hidden;
+  
+    /* only works with absolute positioning */
+    position: absolute;
+  
+    /* Make sure containers are full-width and height */
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    
+    
+    /* safari hack */
+    /* -webkit-mask-image: -webkit-linear-gradient(top, #ffbdb3 0%,#ffbdb3 100%); */
+  }
+  
+  .container_solid {
+    background: #ffbdb3;
+    
+    /* position this container at the top of its parent element */
+    top: 0;
+  }
+  
+  .title_wrapper {
+    position: fixed;
+    display: block;  
+    margin: auto;
+    width: 100%;
+    /* center the text wrapper vertically */
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  .title_wrapper h1 {
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: roxboroughCfLightimport;
+    font-weight: 900;
+  }
+  
+  .container_solid .title_wrapper h1 {
+    /* the text background */
+    background: #ff4219;
+    background-size: 100vw auto;
+    background-position: center;
+    
+    /* clip the text is possible */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    /* fallback text color */
+    color: black;
+  }
+  
+  .container_image {
+    /* Grab a free image from unsplash */
+    background: #ff4219;
+    background-size:100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    
+    /* position the second container below the first container */
+    top: 100vh;
+  }
+  
+  .container_image .title_wrapper h1 {
+    color: #ffbdb3;
+  }
+  
+  .sectionC {
+    background: #ffbdb3;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  section h2 {
+    font-family: roxboroughCfLightimport;
+  }
+  
+  section p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  
+  .arrowpos {
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 3rem;
+  }
+
+
+  /* responsive */
+
+  /* mobiles */
+  @media screen and (max-width: 480px) {
+    header {
+      height: 200vh;
+    }
+    .container {
+      clip: rect(0, auto, auto, 0);
+      overflow: hidden;
+      position: absolute;
+      height: 100vh;
+      left: 0;
+      width: 100%;
+    }
+    .container_solid {
+      background: #ffbdb3;
+      top: 0;
+    }
+    .title_wrapper {
+      position: fixed;
+      display: block;  
+      margin: auto;
+      width: 100%;
+      /* center the text wrapper vertically */
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+    }
+    .title_wrapper h1 {
+      text-align: center;
+      font-size: 50px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: roxboroughCfLightimport;
+      font-weight: 900;
+    }
+    .container_solid .title_wrapper h1 {
+      background: #ff4219;
+      background-size: 100vw auto;
+      background-position: center;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: black;
+    }
+    .container_image {
+      background: #ff4219;
+      background-size:100vw auto;
+      background-position: center;
+      background-attachment: fixed;
+      top: 100vh;
+    }
+    .container_image .title_wrapper h1 {
+      color: #ffbdb3;
+    }
+    .sectionC {
+      background: #ffbdb3;
+    }
+    section {
+      max-height: 100vh;
+      max-width: 100vw;
+      padding: 2em;
+      margin: auto;
+      max-width: 800px;
+    }
+    section h2 {
+      font-family: roxboroughCfLightimport;
+    }
+    section p {
+      font-family: -apple-system, BlinkMacSystemFont, 
+                  "Segoe UI", Helvetica, Arial, sans-serif, 
+                  "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    .arrowpos {
+      position: fixed;
+      bottom: 60px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .arrow {
+      position: absolute;
+      left: 47.5%;
+      top: 50%;
+      height: 2rem;
+    }
+  
+  }
+
+
+    /* ipads, tablets */
+    @media screen and (max-width: 768px) {
+      header {
+        height: 200vh;
+      }
+      .container {
+        clip: rect(0, auto, auto, 0);
+        overflow: hidden;
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        width: 100%;
+      }
+      .container_solid {
+        background: #ffbdb3;
+        top: 0;
+      }
+      .title_wrapper {
+        position: fixed;
+        display: block;  
+        margin: auto;
+        width: 100%;
+        /* center the text wrapper vertically */
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+      }
+      .title_wrapper h1 {
+        text-align: center;
+        font-size: 65px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: roxboroughCfLightimport;
+        font-weight: 900;
+      }
+      .container_solid .title_wrapper h1 {
+        background: #ff4219;
+        background-size: 100vw auto;
+        background-position: center;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: black;
+      }
+      .container_image {
+        background: #ff4219;
+        background-size:100vw auto;
+        background-position: center;
+        background-attachment: fixed;
+        top: 100vh;
+      }
+      .container_image .title_wrapper h1 {
+        color: #ffbdb3;
+      }
+      .sectionC {
+        background: #ffbdb3;
+      }
+      section {
+        max-height: 100vh;
+        max-width: 100vw;
+        padding: 2em;
+        margin: auto;
+        max-width: 800px;
+      }
+      section h2 {
+        font-family: roxboroughCfLightimport;
+      }
+      section p {
+        font-family: -apple-system, BlinkMacSystemFont, 
+                    "Segoe UI", Helvetica, Arial, sans-serif, 
+                    "Apple Color Emoji", "Segoe UI Emoji";
+      }
+      .arrowpos {
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .arrow {
+        position: absolute;
+        left: 47.5%;
+        top: 50%;
+        height: 2rem;
+      }
+    
+    }
+
+
+
+      /* small screens, laptops */
+  @media screen and (max-width: 1024px) {
+    header {
+      height: 200vh;
+    }
+    .container {
+      clip: rect(0, auto, auto, 0);
+      overflow: hidden;
+      position: absolute;
+      height: 100vh;
+      left: 0;
+      width: 100%;
+    }
+    .container_solid {
+      background: #ffbdb3;
+      top: 0;
+    }
+    .title_wrapper {
+      position: fixed;
+      display: block;  
+      margin: auto;
+      width: 100%;
+      /* center the text wrapper vertically */
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+    }
+    .title_wrapper h1 {
+      text-align: center;
+      font-size: 80px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: roxboroughCfLightimport;
+      font-weight: 900;
+    }
+    .container_solid .title_wrapper h1 {
+      background: #ff4219;
+      background-size: 100vw auto;
+      background-position: center;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: black;
+    }
+    .container_image {
+      background: #ff4219;
+      background-size:100vw auto;
+      background-position: center;
+      background-attachment: fixed;
+      top: 100vh;
+    }
+    .container_image .title_wrapper h1 {
+      color: #ffbdb3;
+    }
+    .sectionC {
+      background: #ffbdb3;
+    }
+    section {
+      max-height: 100vh;
+      max-width: 100vw;
+      padding: 2em;
+      margin: auto;
+      max-width: 800px;
+    }
+    section h2 {
+      font-family: roxboroughCfLightimport;
+    }
+    section p {
+      font-family: -apple-system, BlinkMacSystemFont, 
+                  "Segoe UI", Helvetica, Arial, sans-serif, 
+                  "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    .arrowpos {
+      position: fixed;
+      bottom: 60px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .arrow {
+      position: absolute;
+      left: 47.5%;
+      top: 50%;
+      height: 2rem;
+    }
+  
+  }
+
+    /* large screens, desktops */
+    @media screen and (max-width: 1200px) {
+      header {
+        height: 200vh;
+      }
+      .container {
+        clip: rect(0, auto, auto, 0);
+        overflow: hidden;
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        width: 100%;
+      }
+      .container_solid {
+        background: #ffbdb3;
+        top: 0;
+      }
+      .title_wrapper {
+        position: fixed;
+        display: block;  
+        margin: auto;
+        width: 100%;
+        /* center the text wrapper vertically */
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+      }
+      .title_wrapper h1 {
+        text-align: center;
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: roxboroughCfLightimport;
+        font-weight: 900;
+      }
+      .container_solid .title_wrapper h1 {
+        background: #ff4219;
+        background-size: 100vw auto;
+        background-position: center;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: black;
+      }
+      .container_image {
+        background: #ff4219;
+        background-size:100vw auto;
+        background-position: center;
+        background-attachment: fixed;
+        top: 100vh;
+      }
+      .container_image .title_wrapper h1 {
+        color: #ffbdb3;
+      }
+      .sectionC {
+        background: #ffbdb3;
+      }
+      section {
+        max-height: 100vh;
+        max-width: 100vw;
+        padding: 2em;
+        margin: auto;
+        max-width: 800px;
+      }
+      section h2 {
+        font-family: roxboroughCfLightimport;
+      }
+      section p {
+        font-family: -apple-system, BlinkMacSystemFont, 
+                    "Segoe UI", Helvetica, Arial, sans-serif, 
+                    "Apple Color Emoji", "Segoe UI Emoji";
+      }
+      .arrowpos {
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .arrow {
+        position: absolute;
+        left: 47.5%;
+        top: 50%;
+        height: 2rem;
+      }
+    
+    }
