@@ -1,5 +1,6 @@
 import React from 'react' 
 import './About.styles.css'
+import Timeline from './Timeline'
 
 function About () {
     return (
@@ -29,6 +30,9 @@ function About () {
                 <p>My career goal is to have an influence on the tech sector 
                    in Aotearoa, and contribute to our country's success in a 
                    post Covid-19 world.</p>
+                   <div className='timeline'>
+                <Timeline />
+                </div>
                 <div className='icons'>
                   <img src='mail.png' alt='click to copy email'/>
                   <img src='person.png' alt='click to follow Erin on Linked In' />
