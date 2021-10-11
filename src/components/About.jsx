@@ -14,9 +14,6 @@ function About () {
               <div class="container container_image" aria-hidden="true">
                 <div class="title_wrapper">
                   <h1>About</h1>
-                  {/* <h2>I am a Creative Technologist and Software Developer 
-                      with a deep passion for designing, creating and building 
-                      interactive experiences.</h2> */}
                 </div>
               </div>
             </header>
@@ -39,10 +36,10 @@ function About () {
                 </div>
               </section>
             </div>
-          <div className='arrowpos'>
-            <img className='arrow' src='warrow.png' alt='down arrow' />
+            <div className='arrowpos'>
+              <img className='arrow' src='warrow.png' alt='down arrow' />
+            </div>
           </div>
-        </div>
         </>
     )
 }

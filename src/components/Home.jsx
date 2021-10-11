@@ -12,7 +12,6 @@ function Home () {
               <h1>Welcome</h1>
             </div>
           </div>
-
           <div class="container container_image" aria-hidden="true">
             <div class="title_wrapper">
               <h1>Welcome</h1>
@@ -21,7 +20,7 @@ function Home () {
           </header>
           <div className='sectionC'>
             <section>
-              <h2>Lorem ipsum dolor sit amet.</h2>
+              <h1 className='head'>Welcome to my portfolio.</h1>
               <p>Consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim 
                 ad minim veniam, quis nostrud exercitation ullamco 
@@ -33,7 +32,7 @@ function Home () {
             </section>
           </div>
           <div className='arrowpos'>
-            <img className='arrow' src='warrow.png' alt='down arrow' />
+              <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
           </div>
         </div>
       </>
