@@ -1,4 +1,4 @@
-.btn {
+.butt {
   color: #ff4219;
   font-family: roxboroughCfLightimport;
   font-weight: 300;
@@ -7,8 +7,18 @@
   border: none;
   margin: 2rem;
   background-color: #ffbdb3;
+  transition: all .2s ease-in-out;
+
 }
-/* 
-.btn:hover {
-  
-} */
+
+.butt:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.butt:focus {
+  color: #ad1a00;
+}
+:target {
+  color: red;
+}

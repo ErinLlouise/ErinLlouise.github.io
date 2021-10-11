@@ -6,7 +6,7 @@ function AboutButton () {
     return (
         <>
           <Link to='/about'>
-            <button className='btn'>ABOUT</button>
+            <button className='butt'>ABOUT</button>
           </Link>
         </>
     )

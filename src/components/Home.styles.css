@@ -121,10 +121,10 @@
     height: 3rem;
   }
 
-  .bounce {
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
+.bounce {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
 }
 .bounce-7 {
     animation-name: bounce-7;

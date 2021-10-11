@@ -6,7 +6,7 @@ function ProjectsButton () {
     return (
         <>
           <Link to='/projects'>
-            <button className='btn'>PROJECTS</button>
+            <button className='butt'>PROJECTS</button>
           </Link>
         </>
     )

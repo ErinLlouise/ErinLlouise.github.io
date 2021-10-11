@@ -37,8 +37,8 @@ function About () {
               </section>
             </div>
             <div className='arrowpos'>
-              <img className='arrow' src='warrow.png' alt='down arrow' />
-            </div>
+              <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+          </div>
           </div>
         </>
     )
