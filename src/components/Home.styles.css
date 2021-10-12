@@ -95,18 +95,25 @@
     font-size: large;
     line-height: 2;
   }
-  
-  .arrowpos {
-    position: fixed;
-    bottom: 60px;
-    width: 100%;
-    margin: 0 auto;
-  }
+
   .arrow {
     position: absolute;
+    top: 99%;
+  }
+  
+  #secA-arrow {
+    position: relative;
+    bottom: 500px;
+  }
+  #secB-arrow {
+    position: absolute;
     left: 50%;
-    top: 50%;
-    height: 3rem;
+    bottom: 20px;
+  }
+  #secC-arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
   }
 
 .bounce {

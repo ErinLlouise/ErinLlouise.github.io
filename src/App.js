@@ -11,6 +11,7 @@ function App() {
     <div className="App">
      <Header />
      <Route exact path='/' component={Home} />
+     <Route path='/#sectionB' component={Home} />
      <Route path='/about' component={About} />
      <Route path='/projects' component={Projects} />
      <Footer />

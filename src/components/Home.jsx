@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Home.styles.css'
 
 function Home () {
@@ -7,14 +8,26 @@ function Home () {
       <>
         <div>
         <header>
-          <div class="container container_solid">
-            <div class="title_wrapper">
-              <h1>Welcome</h1>
+          <div id='sectionA'>
+            <div class="container container_solid">
+              <div class="title_wrapper">
+                <h1>Welcome</h1>
+              </div>
+            </div>
+            <div className='secA-arrow arrow'>
+            <Link to='#sectionB'>
+              <img className='bounce bounce-7' src='warrow.png' alt='down arrow' />
+            </Link>
             </div>
           </div>
-          <div class="container container_image" aria-hidden="true">
-            <div class="title_wrapper">
-              <h1>Welcome</h1>
+          <div id='sectionB'>
+            <div class="container container_image" aria-hidden="true">
+              <div class="title_wrapper">
+                <h1>Welcome</h1>
+              </div>
+              <div className='secB-arrow'>
+                <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+              </div>
             </div>
           </div>
           </header>
@@ -30,9 +43,6 @@ function Home () {
                 sint occaecat cupidatat non proident, sunt in culpa qui 
                 officia deserunt mollit anim id est laborum.</p>
             </section>
-          </div>
-          <div className='arrowpos'>
-              <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
           </div>
         </div>
       </>
