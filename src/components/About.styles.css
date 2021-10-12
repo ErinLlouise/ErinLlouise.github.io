@@ -117,12 +117,13 @@
     font-family: roxboroughCfLightimport;
     text-align: center;
     font-size: 45px;
+    font-size: 60px;
+    text-transform: uppercase;
     font-weight: 900;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-top: -20%;
     margin-bottom: 15%;
     color: #ff4219;
+    line-height: 1.6;
   }
   
   section p {

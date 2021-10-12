@@ -19,7 +19,7 @@ function Projects () {
               </header>
             <div className='sectionC'>
               <section>
-                <h2>Lorem ipsum dolor sit amet.</h2>
+                <h1>Lorem ipsum dolor sit amet.</h1>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor 
                   incididunt ut labore et dolore magna aliqua. Ut enim 
                   ad minim veniam, quis nostrud exercitation ullamco 
