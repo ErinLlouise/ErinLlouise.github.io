@@ -109,7 +109,7 @@
   }
   
   section {
-    max-height: 100vh;
+    max-height: 200vh;
     max-width: 800px;
   }
   
@@ -121,6 +121,7 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-top: -20%;
+    margin-bottom: 15%;
     color: #ff4219;
   }
   
@@ -128,6 +129,7 @@
     font-family: TTNormsThinimport;
     font-size: large;
     line-height: 2;
+    margin-bottom: 60px;
   }
 
   section img {
@@ -143,19 +145,15 @@
 
   .icons {
     position: absolute;
-    left: 38.7%;
+    left: 37.5%;
   }
   
   .arrowpos {
-    position: fixed;
-    bottom: 60px;
-    width: 100%;
-    margin: 0 auto;
+    position: absolute;
+    right: 1.25%;
+    z-index: 100;
   }
   .arrow {
-    position: absolute;
-    left: 50%;
-    top: 50%;
     height: 3rem;
   }
   .bounce {
@@ -176,5 +174,5 @@
   }
 
   .timeline {
-    margin-top: 20%;
+    padding: 200px;
   }

@@ -30,8 +30,8 @@ function About () {
                 <p>My career goal is to have an influence on the tech sector 
                    in Aotearoa, and contribute to our country's success in a 
                    post Covid-19 world.</p>
-                   <div className='timeline'>
-                <Timeline />
+                <div className='timeline'>
+                  <Timeline />
                 </div>
                 <div className='icons'>
                   <img src='mail.png' alt='click to copy email'/>
