@@ -45,10 +45,12 @@ function Timeline () {
         </div>
       </li>
     </ul>
-    <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}>
+    <PopUp 
+      trigger={buttonPopup} 
+      setTrigger={setButtonPopup}>
     </PopUp>
   </div>
-  );
+  )
 }
 
-export default Timeline;
+export default Timeline
