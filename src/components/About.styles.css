@@ -10,43 +10,12 @@
   header {
     height: 200vh;
   }
-  .container {
-    /* hide fixed overflow contents */
-    clip: rect(0, auto, auto, 0);
-  
-    /* does not work if overflow = visible */
-    overflow: hidden;
-  
-    /* only works with absolute positioning */
-    position: absolute;
-  
-    /* Make sure containers are full-width and height */
-    height: 100vh;
-    left: 0;
-    width: 100%;
-    
-    
-    /* safari hack */
-    /* -webkit-mask-image: -webkit-linear-gradient(top, #ffbdb3 0%,#ffbdb3 100%); */
-  }
-  
-  .container_solid {
-    background: #ffbdb3;
-    
-    /* position this container at the top of its parent element */
-    top: 0;
-  }
   
   .title_wrapper {
     position: fixed;
     display: block;  
     margin: auto;
     width: 100%;
-    /* center the text wrapper vertically */
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
   }
   
   .title_wrapper h1 {
@@ -56,18 +25,7 @@
     text-align: center;
     font-family: roxboroughCfLightimport;
     font-weight: 900;
-  }
-
-  .title_wrapper h2 {
-    text-align: center;
-    font-size: 45px;
-    position: fixed;
-    bottom: -85%;
-    font-family: 'Scheherazade New', serif;
-    font-weight: 900;
-    margin-left: 15%;
-    margin-right: 15%;
-    color: white;
+    padding: 30px;
   }
   
   .container_solid .title_wrapper h1 {
@@ -75,12 +33,8 @@
     background: #ff4219;
     background-size: 100vw auto;
     background-position: center;
-    
     /* clip the text is possible */
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    
     /* fallback text color */
     color: black;
   }
@@ -91,7 +45,6 @@
     background-size:100vw auto;
     background-position: center;
     background-attachment: fixed;
-    
     /* position the second container below the first container */
     top: 100vh;
   }
@@ -100,10 +53,6 @@
     color: #ffbdb3;
   }
 
-  .container_image .title_wrapper h2 {
-    color: #ffbdb3;
-  }
-  
   .sectionC {
     background: #ffbdb3;
   }
