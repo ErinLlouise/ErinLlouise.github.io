@@ -109,7 +109,7 @@
   }
   
   section {
-    max-height: 200vh;
+    max-height: 100vh;
     max-width: 800px;
   }
   
@@ -144,13 +144,17 @@
     cursor: pointer;
   }
 
+  .sectionD {
+    max-height: 100vh;
+  }
+
   .icons {
     position: absolute;
     left: 37.5%;
   }
   
   .arrowpos {
-    position: absolute;
+    position: fixed;
     right: 1.25%;
     z-index: 100;
   }
@@ -172,8 +176,4 @@
       57%  { transform: scale(1,1)      translateY(-7px); }
       64%  { transform: scale(1,1)      translateY(0); }
       100% { transform: scale(1,1)      translateY(0); }
-  }
-
-  .timeline {
-    padding: 200px;
   }
