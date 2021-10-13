@@ -1,4 +1,5 @@
 import React from 'react' 
+import { HashLink as Link } from 'react-router-hash-link'
 import './About.css'
 import Timeline from './Timeline'
 
@@ -7,20 +8,33 @@ function About () {
         <>
           <div>
             <header>
-              <div class="container container_solid">
-                <div class="title_wrapper">
-                  <h1>About</h1>
+              <div id='sectionA'>
+                <div class="container container_solid">
+                  <div class="title_wrapper">
+                    <h1>About</h1>
+                  </div>
                 </div>
+                <div>
+                <Link to='#sectionB'>
+                  <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                </Link>
               </div>
-              <div class="container container_image" aria-hidden="true">
+            </div>
+            
+              <div id='sectionB' class="container container_image" aria-hidden="true">
                 <div class="title_wrapper">
                   <h1>About</h1>
                 </div>
+              <div>
+                <Link to='#sectionC'>
+                  <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                </Link>
+              </div>
               </div>
             </header>
             <div className='sectionC'>
               <section>
-                <h1>Erin Louise Abernethy.</h1>
+                <h1 id='sectionC'>Erin Louise Abernethy.</h1>
                 <p>I am a Creative Technologist and Software Developer 
                    with a deep passion for designing, creating and building 
                    interactive experiences. I am always excited by new and 
