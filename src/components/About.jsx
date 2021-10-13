@@ -1,5 +1,5 @@
 import React from 'react' 
-import './About.styles.css'
+import './About.css'
 import Timeline from './Timeline'
 
 function About () {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
-import './Home.styles.css'
+import './Home.css'
 
 function Home () {
 
@@ -14,9 +14,9 @@ function Home () {
                 <h1>Welcome</h1>
               </div>
             </div>
-            <div className='secA-arrow arrow'>
+            <div>
               <Link to='#sectionB'>
-                <img className='bounce bounce-7' src='warrow.png' alt='down arrow' />
+                <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
               </Link>
             </div>
           </div>
@@ -24,9 +24,9 @@ function Home () {
               <div class="title_wrapper">
                 <h1 >Welcome</h1>
               </div>
-              <div className='secB-arrow'>
+              <div>
                 <Link to='#sectionC'>
-                <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                  <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
                 </Link>
               </div>
             </div>
