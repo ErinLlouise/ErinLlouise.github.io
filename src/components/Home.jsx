@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import './Home.styles.css'
 
 function Home () {
@@ -15,25 +15,25 @@ function Home () {
               </div>
             </div>
             <div className='secA-arrow arrow'>
-            <Link to='#sectionB'>
-              <img className='bounce bounce-7' src='warrow.png' alt='down arrow' />
-            </Link>
+              <Link to='#sectionB'>
+                <img className='bounce bounce-7' src='warrow.png' alt='down arrow' />
+              </Link>
             </div>
           </div>
-          <div id='sectionB'>
-            <div class="container container_image" aria-hidden="true">
+            <div id='sectionB' class="container container_image" aria-hidden="true">
               <div class="title_wrapper">
-                <h1>Welcome</h1>
+                <h1 >Welcome</h1>
               </div>
               <div className='secB-arrow'>
+                <Link to='#sectionC'>
                 <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                </Link>
               </div>
             </div>
-          </div>
           </header>
-          <div className='sectionC'>
+          <div>
             <section>
-              <h1 className='head'>Welcome to my portfolio.</h1>
+              <h1 id='sectionC' className='head'>Welcome to my portfolio.</h1>
               <p>Consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim 
                 ad minim veniam, quis nostrud exercitation ullamco 
