@@ -1,6 +1,6 @@
 import React, { useState } from 'react' 
 import PopUp from './PopUp';
-import './Timeline.styles.css';
+import './Timeline.css';
 
 function Timeline () {
   const [buttonPopup, setButtonPopup] = useState(false)

@@ -1,8 +1,6 @@
-body {	
-    margin: 0;
+.timepos {	
     padding: 0;
-    background: #ffa699;
-    
+    background: #ffbdb3;
     color: rgb(50,50,50);
     font-family: 'Open Sans', sans-serif;
     font-size: 112.5%;
@@ -15,7 +13,8 @@ body {
     position: relative;
     width: 660px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: -20%;
+    margin-bottom: 10%;
     padding: 1em 0;
     list-style-type: none;
   }
