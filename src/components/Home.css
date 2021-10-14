@@ -7,7 +7,7 @@
     src:("TTNorms-Thin.otf");
   }
   header {
-    height: 200vh;
+    height: 300vh;
   }
   .container {
     /* hide fixed overflow contents */
@@ -35,9 +35,9 @@
     width: 100%;
     /* center the text wrapper vertically */
     top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -webkit-transform: translateY(-30%);
+        -ms-transform: translateY(-30%);
+            transform: translateY(-30%);
   }
   
   .title_wrapper h1 {
@@ -47,30 +47,20 @@
     text-align: center;
     font-family: roxboroughCfLightimport;
     font-weight: 900;
+    padding: 30px;
   }
   
   .container_solid .title_wrapper h1 {
     /* the text background */
     background: #ff4219;
-    background-size: 100vw auto;
     background-position: center;
-    
-    /* clip the text is possible */
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    
-    /* fallback text color */
-    color: black;
   }
   
   .container_image {
-    /* Grab a free image from unsplash */
     background: #ff4219;
     background-size:100vw auto;
     background-position: center;
     background-attachment: fixed;
-    
     /* position the second container below the first container */
     top: 100vh;
   }
@@ -78,11 +68,7 @@
   .container_image .title_wrapper h1 {
     color: #ffbdb3;
   }
-  
-  /* .sectionC {
-    background: #ffbdb3;
-  } */
-  
+
   section {
     min-height: 100vh;
     padding: 2em;
@@ -90,16 +76,19 @@
     max-width: 800px;
     background: #ffbdb3;
   }
-  
+
   .head {
     font-family: roxboroughCfLightimport;
     text-align: center;
     font-size: 45px;
+    font-size: 60px;
+    text-transform: uppercase;
     font-weight: 900;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-top: -20%;
+    margin-bottom: 15%;
+    padding-top: 70px;
     color: #ff4219;
+    line-height: 1.6;
   }
   
   section p {
@@ -107,18 +96,14 @@
     font-size: large;
     line-height: 2;
   }
-  
-  .arrowpos {
-    position: fixed;
-    bottom: 60px;
-    width: 100%;
-    margin: 0 auto;
-  }
+
   .arrow {
     position: absolute;
     left: 50%;
-    top: 50%;
-    height: 3rem;
+    top: 93%;
+    height: 50px;
+    width: auto;
+    transition: all .2s ease-in-out;
   }
 
 .bounce {
