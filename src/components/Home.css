@@ -101,6 +101,9 @@
     position: absolute;
     left: 50%;
     top: 93%;
+    height: 50px;
+    width: auto;
+    transition: all .2s ease-in-out;
   }
 
 .bounce {

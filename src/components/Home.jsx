@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
+import Arrow from '@material-ui/icons/ExpandMore'
 import './Home.css'
 
 function Home () {
@@ -16,7 +17,7 @@ function Home () {
             </div>
             <div>
               <Link to='#sectionB'>
-                <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                <Arrow style={{ color: "#ff4219" }} className='arrow bounce bounce-7' src='warrow.png'/> 
               </Link>
             </div>
           </div>
@@ -26,7 +27,7 @@ function Home () {
               </div>
               <div>
                 <Link to='#sectionC'>
-                  <img className='arrow bounce bounce-7' src='warrow.png' alt='down arrow' />
+                  <Arrow style={{ color: "#ffbdb3" }} className='arrow bounce bounce-7' src='warrow.png'/> 
                 </Link>
               </div>
             </div>
