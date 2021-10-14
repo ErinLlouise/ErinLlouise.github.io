@@ -18,7 +18,7 @@ function Home () {
             </div>
             <div>
               <Link to='#sectionB'>
-                <Arrow style={{ color: "#ff4219" }} className='arrow bounce bounce-7' src='warrow.png'/> 
+                <Arrow style={{ "color" : "#ff4219", "fontSize" : "50px"  }} className='arrow bounce bounce-7' src='warrow.png'/> 
               </Link>
             </div>
           </div>
@@ -28,7 +28,7 @@ function Home () {
               </div>
               <div>
                 <Link to='#sectionC'>
-                  <Arrow style={{ color: "#ffbdb3" }} className='arrow bounce bounce-7' src='warrow.png'/> 
+                  <Arrow style={{ color: "#ffbdb3", "fontSize" : "50px" }} className='arrow bounce bounce-7' src='warrow.png'/> 
                 </Link>
               </div>
             </div>
@@ -46,7 +46,7 @@ function Home () {
                 officia deserunt mollit anim id est laborum.</p>
               <div>
                 <Link to='#sectionA'>
-                  <ArrowUp style={{ color: "#ff4219" }} className='arrowup bounce bounce-7' src='warrow.png'/> 
+                  <ArrowUp style={{ color: "#ff4219", "fontSize" : "50px" }} className='arrowup bounce bounce-7' src='warrow.png'/> 
                 </Link>
               </div>
             </section>

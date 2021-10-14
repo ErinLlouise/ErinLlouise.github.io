@@ -99,16 +99,15 @@
 
   .arrow {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 93%;
-    height: 50px;
     width: auto;
     transition: all .2s ease-in-out;
   }
 
   .arrowup {
     position: relative;
-    left: 49%;
+    left: 48%;
     top: 70px;
   }
 
