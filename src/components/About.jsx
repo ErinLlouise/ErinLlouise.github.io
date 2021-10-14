@@ -1,6 +1,7 @@
 import React from 'react' 
 import { HashLink as Link } from 'react-router-hash-link'
 import Arrow from '@material-ui/icons/ExpandMore'
+import ArrowUp from '@material-ui/icons/ExpandLess'
 import './About.css'
 import Timeline from './Timeline'
 
@@ -57,6 +58,11 @@ function About () {
                   <Timeline />
                 </div>
             </div>
+                <div>
+                <Link to='#sectionA'>
+                  <ArrowUp style={{ color: "#ff4219" }} className='arrowup bounce bounce-7' src='warrow.png'/> 
+                </Link>
+              </div>
           </div>
         </>
     )

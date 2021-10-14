@@ -1,6 +1,7 @@
 import React from 'react' 
 import { HashLink as Link } from 'react-router-hash-link'
 import Arrow from '@material-ui/icons/ExpandMore'
+import ArrowUp from '@material-ui/icons/ExpandLess'
 import './Projects.css'
 
 function Projects () {
@@ -42,6 +43,11 @@ function Projects () {
                 esse cillum dolore eu fugiat nulla pariatur. Excepteur 
                 sint occaecat cupidatat non proident, sunt in culpa qui 
                 officia deserunt mollit anim id est laborum.</p>
+                <div>
+                <Link to='#sectionA'>
+                  <ArrowUp style={{ color: "#ff4219" }} className='arrowup bounce bounce-7' src='warrow.png'/> 
+                </Link>
+              </div>
             </section>
           </div>
         </div>

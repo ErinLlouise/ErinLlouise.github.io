@@ -107,6 +107,12 @@
     left: 50%;
     top: 93%;
   }
+
+  .arrowup {
+    position: relative;
+    left: 49.5%;
+    top: -100px;
+  }
   .bounce {
     animation-duration: 2s;
     animation-iteration-count: infinite;
