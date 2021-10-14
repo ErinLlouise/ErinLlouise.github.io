@@ -1,6 +1,7 @@
 import React from 'react' 
 import { HashLink as Link } from 'react-router-hash-link'
 import Arrow from '@material-ui/icons/ExpandMore'
+import ArrowUp from '@material-ui/icons/ExpandLess'
 import './About.css'
 import Timeline from './Timeline'
 
@@ -17,7 +18,7 @@ function About () {
                 </div>
                 <div>
                 <Link to='#sectionB'>
-                  <Arrow style={{ color: "#ff4219" }} className='arrow bounce bounce-7' src='warrow.png'/> 
+                  <Arrow style={{ color: "#ff4219", "fontSize" : "50px" }} className='arrow bounce bounce-7' src='warrow.png'/> 
                 </Link>
               </div>
             </div>
@@ -28,7 +29,7 @@ function About () {
                 </div>
               <div>
                 <Link to='#sectionC'>
-                  <Arrow style={{ color: "#ffbdb3" }} className='arrow bounce bounce-7' src='warrow.png'/> 
+                  <Arrow style={{ color: "#ffbdb3", "fontSize" : "50px" }} className='arrow bounce bounce-7' src='warrow.png'/> 
                 </Link>
               </div>
               </div>
@@ -57,6 +58,11 @@ function About () {
                   <Timeline />
                 </div>
             </div>
+                <div>
+                <Link to='#sectionA'>
+                  <ArrowUp style={{ color: "#ff4219", "fontSize" : "50px" }} className='arrowup bounce bounce-7' src='warrow.png'/> 
+                </Link>
+              </div>
           </div>
         </>
     )
