@@ -82,25 +82,25 @@
     margin-bottom: 60px;
   }
 
-  section img {
-    padding: 50px;
-    height: 60px;
-    transition: all .2s ease-in-out;
+  .clickables {
+    margin: 50px;
+    transition: all .8s ease-in-out;
   }
 
-  section img:hover {
+  .clickables:hover {
     transform: scale(1.1);
     cursor: pointer;
+  }
+
+  .icons {
+    position: absolute;
+    left: 31.5%; 
   }
 
   .sectionD {
     max-height: 100vh;
   }
 
-  .icons {
-    position: absolute;
-    left: 37.5%;
-  }
   
   .arrow {
     position: absolute;

@@ -2,6 +2,9 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import Arrow from '@material-ui/icons/ExpandMore'
 import ArrowUp from '@material-ui/icons/ExpandLess'
+import Email from '@material-ui/icons/Email'
+import Account from '@material-ui/icons/AccountCircle'
+import Download from '@material-ui/icons/SaveAlt'
 import './About.css'
 import Timeline from './Timeline'
 
@@ -47,9 +50,12 @@ function About () {
                    in Aotearoa, and contribute to our country's success in a 
                    post Covid-19 world.</p>
               <div className='icons'>
-                  <img src='mail.png' alt='click to copy email'/>
-                  <img src='person.png' alt='click to follow Erin on Linked In' />
-                  <img src='download.png' alt='click to download erins cv' />
+                  <Email style={{ "color": "#ff4219", "fontSize" : "80px" }} className='clickables'/>
+                  <a href='https://www.linkedin.com/in/erin-abernethy-626a60159/' >
+                    <Account style={{ "color": "#ff4219", "fontSize" : "80px" }} 
+                      className='clickables'/>
+                  </a>
+                  <Download style={{ "color": "#ff4219", "fontSize" : "80px" }} className='clickables'/>
               </div>
               </section>
             </div>
