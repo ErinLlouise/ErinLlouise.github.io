@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+ font-family: 'Nunito', sans-serif;
+  line-height: 1.6em;
+  color: #ffa699;
+}
+
+/*******************************************  
+MOBILE PHONE VIEW ONLY
+*******************************************/
+header {
+  background-color: #ffa699;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ff4219;
+}
+
+.logo {
+  font-size: 1.6em;
+  margin: 0;
+  color: #ff4219;
+}
+
+.navbar {
+  margin-top: 5px;
+  display: none
+  
+}
+
+.logo,
+.navbar a,
+a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: .35em;
+}
+
+.navbar a {
+  font-size: .9em;
+}
+
+.navbar a:hover {
+  color: #8DD8AE;
+}
+
+.header {
+  background: #ffa699;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+
+.toggleBtn {
+  display: inline-block;
+  position: absolute;
+  top: .45em;
+  left: .4em;
+  cursor: pointer;
+  font-size: 2em;
+  color: #ff4219;
+}
+
+.toggleBtn:hover {
+  color: #ff4219;
+}
+
+
+
+input {
+  display: none;
+  padding: 15px;
+}
+
+#toggle:checked +.navbar {
+  display: block;
+}
+
+
+
+
+
+
+
+/*******************************************  
+TABLET VIEW STYLES
+*******************************************/
+
+@media (min-width: 769px) {
+  .header,
+  .navbar {
+    display: flex;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  
+  .toggleBtn,
+  input {
+    display: none;
+  }
+}
+
+
+/*******************************************  
+DESKTOP VIEW STYLES
+*******************************************/
+
+
+@media (min-width: 1300px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .toggleBtn,
+  input {
+    display: none;
+  }
+}
