@@ -8,12 +8,7 @@ function Header () {
     return (
       <>
         <div className="header">
-          <img src='ErinLouise(1).png' className="App-logo" alt="Erin Louise Logo" />
-          <div className='nav'>
-            <AboutButton />
-            <ProjectsButton />
-            <HomeButton />
-          </div>
+          
         </div>
       </>
     )
