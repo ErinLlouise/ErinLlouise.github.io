@@ -9,14 +9,15 @@ function Header () {
       <>
         <header>
           <div class="header">
-            <div class="logo">LOGO</div>
+            <div class="logoContainer">
+              <img class="logo" src="logo.png"/>
+            </div>
             <label for="toggle" class="toggleBtn">menu</label>
             <input type="checkbox" id="toggle" />
             <ul class="navbar">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
             </ul>
           </div>
         </header>
