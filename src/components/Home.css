@@ -1,3 +1,25 @@
-* {
+.sectionA {
     background-color: #ffbdb3;
+    width: 100vw;
+    height: 100vh;
+    color: #ff4219;
+}
+
+.sectionB {
+    background-color: #ff4219;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sectionC {
+    background-color: #ffbdb3;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
