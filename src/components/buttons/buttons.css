@@ -10,15 +10,3 @@
   transition: all .2s ease-in-out;
 
 }
-
-.butt:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-.butt:focus {
-  color: #ad1a00;
-}
-:target {
-  color: red;
-}
