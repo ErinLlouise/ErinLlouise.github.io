@@ -68,7 +68,7 @@ a {
   display: inline-block;
   position: absolute;
   top: .45em;
-  left: .4em;
+  right: .4em;
   cursor: pointer;
   font-size: 2em;
   color: #ff4219;
@@ -77,6 +77,14 @@ a {
 .toggleBtn:hover {
   color: #ff4219;
 }
+
+.icon {
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #ff4219;
+    margin: 5px 0;
+  }
 
 
 
@@ -110,6 +118,10 @@ TABLET VIEW STYLES
     align-items: center;
     margin: 0 auto;
     max-width: 1100px;
+  }
+
+  .navbar {
+      margin-top: 25px;
   }
   
   .toggleBtn,
